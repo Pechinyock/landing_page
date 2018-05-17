@@ -27,8 +27,14 @@ h2
 	text-align: center;
 	color:#fff;
 }
+p
+{
+	font-size: 20px;
+	color:#8c8c8c;
+	text-align: center;
+}
 
-/* header`s classes */
+/* first screen */
 
 .header
 {
@@ -104,7 +110,7 @@ h2
 {
 	margin-left:75px;
 	margin-top:60px;
-	padding-bottom: 310px; 
+	padding-bottom: 200px; 
 }
 
 .content_side_bar__button a
@@ -117,4 +123,43 @@ h2
 	color: #fff;
 	text-decoration: none;
 	border-radius: 10px;
+}
+.content_side_bar__arrows
+{
+	font-size: 30px;
+	margin-right: 20px;
+	color: #fff;
+	float: right;
+	padding-bottom: 65px; 
+}
+
+.content_side_bar__arrows li
+{
+	margin-right: 20px;
+}
+
+/* second screen*/
+
+.content_description
+{
+
+}
+
+.content_description__ico_arrow
+{
+	text-align: center;
+	padding-top: 100px; 
+	padding-bottom: 50px;
+}
+.content_description__title h2
+{
+	color: #515151;
+	padding-bottom: 70px; 
+}
+
+.content_description__text
+{
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 50px;
 }
