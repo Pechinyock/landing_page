@@ -14,6 +14,20 @@ a
 {
 	text-decoration: none;
 }
+
+h1
+{
+	text-align: center;
+	color:#fff;
+	font-weight: 600;
+}
+
+h2
+{
+	text-align: center;
+	color:#fff;
+}
+
 /* header`s classes */
 
 .header
@@ -67,9 +81,40 @@ a
 {
 	font-size:13px;
 	font-weight: 600;
-	padding:5px 30px 5px 30px;
+	padding:7px 30px 7px 30px;
 	background-color:#bcda5c;
 	color:#fff;
 	text-decoration:none;
-	border-radius: 15px;
+	border-radius: 30px;
+}
+
+.content_side_bar
+{
+	background-image: url(../img/side_bar.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.content_side_bar__titles
+{
+	margin-top: 180px; 
+}
+
+.content_side_bar__button
+{
+	margin-left:75px;
+	margin-top:60px;
+	padding-bottom: 310px; 
+}
+
+.content_side_bar__button a
+{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	padding:20px 50px 20px 50px;
+	background-color: #99c50a;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
 }
