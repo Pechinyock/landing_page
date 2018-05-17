@@ -163,3 +163,160 @@ p
 	margin: 0 auto;
 	padding-top: 50px;
 }
+
+/* third screen */
+
+.content_our_advantages
+{
+
+}
+
+.content_our_advantages_tab
+{
+	padding-top: 180px;
+}
+
+.content_our_advantages_tab_items
+{
+	padding-bottom: 45px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.content_our_advantages_tab_items h2
+{
+	color: #656565;
+	margin-right: 100px; 
+	display:inline-block;
+}
+
+.content_our_advantages_tab
+{
+
+}
+
+.items_circle
+{
+	float: left;
+	background-color: #5f5f5f;
+	color: #fff;
+	padding: 6px 13px 6px 13px;
+	border-radius: 30px;
+	margin-right: 50px;
+}
+
+.tab_content
+{
+
+}
+
+.tab_content__img
+{
+	margin-left: 140px;
+	margin-top: 80px;
+	padding-right: 90px;
+}
+
+.tab_content__text h3
+{
+	color: #add136;
+	margin-top: 50px;
+	text-align: left;
+	padding-bottom: 40px;
+}
+
+.tab_content__text p
+{
+	text-align: left;
+}
+
+.content_sing_up
+{
+	margin-top: 100px;
+	background: linear-gradient(to right, #e2f8ff, #f5f9eb);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.bg_left
+{
+	background-color: #e2f8ff; 
+}
+
+.content_sign_up__left__img
+{
+	padding-top: 80px;
+	padding-right: 60px;
+}
+.content_sign_up__left__text
+{
+	padding-top: 45px;
+}
+
+.content_sign_up__left__text p
+{
+	padding-top: 30px;
+	text-align: left;
+}
+
+.content_sign_up__left__text__button
+{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.content_sign_up__left__text a
+{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	padding:15px 20px 15px 20px;
+	background-color: #26a6d1;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.bg_right
+{
+	background-color: #f5f9eb; 
+}
+
+.content_sign_up__right
+{
+	background-color: #f5f9eb; 
+}
+
+.content_sign_up__right__img
+{
+	padding-top: 80px;
+	padding-right: 60px;
+	padding-left: 70px;
+}
+.content_sign_up__right__text
+{
+	padding-top: 45px;
+}
+
+.content_sign_up__right__text p
+{
+	padding-top: 30px;
+	text-align: left;
+}
+
+.content_sign_up__right__text__button
+{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.content_sign_up__right__text a
+{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	padding:15px 20px 15px 20px;
+	background-color: #add136;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 7px;
+}
