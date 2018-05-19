@@ -34,6 +34,38 @@ p
 	text-align: center;
 }
 
+::-webkit-progress-bar 
+{
+    background: #e3e3e3;
+    border-radius: 15px;
+}
+::-webkit-progress-value 
+{
+    background: #add136;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+::-moz-progress-bar 
+{
+    background: #add136;
+    border-radius: 15px;
+}
+
+progress 
+{
+    border-radius: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 240px;
+    height: 15px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 30px;
+}
+
 /* first screen */
 
 .header
@@ -229,6 +261,7 @@ p
 	text-align: left;
 }
 
+/* fourth screen */
 .content_sing_up
 {
 	margin-top: 100px;
@@ -320,7 +353,7 @@ p
 	text-decoration: none;
 	border-radius: 7px;
 }
-
+/* fifveth screen */
 .content_featured_projects
 {
 
@@ -373,6 +406,11 @@ p
 
 }
 
+.content_galary__items__center
+{
+
+}
+
 .content_galary__triangle-topleft 
 {
 	width: 0px;
@@ -396,14 +434,29 @@ p
 }
 .content_galary__img
 {
-	width:300px;
+	width: 300px;
 	height: 225px;
 	position: absolute;
 	left: 15px;
 	top: 0px;
-	z-index: -1;
+	z-index: -1;	
+}
+
+.content_galary__img_1
+{
 	background-image: url(../img/content_new_image_1.png);
 }
+
+.content_galary__img_2
+{
+	background-image: url(../img/content_new_image_2.png);
+}
+
+.content_galary__img_3
+{
+	background-image: url(../img/content_new_image_3.png);
+}
+
 
 .content_galary__img__button
 {
@@ -422,4 +475,308 @@ p
 	color: #fff;
 	text-decoration: none;
 	border-radius: 7px;
+}
+
+.content_galary__text
+{
+	margin-top: 145px;
+	border:1px solid black;
+	width: 300px;
+	background-color: #f9f9f9;
+	border:1px solid #e5e5e5;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.content_galary__text h4
+{
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.content_galary__text p
+{
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 13px;
+	line-height: 2;
+}
+
+.content_galary__text__stat
+{
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.content_galary__text__stat__left
+{
+	display: inline-block;
+	text-align: left;
+	padding-right:0px;
+	padding-left: 30px;
+	color: #929292; 
+}
+
+.content_galary__text__stat__right
+{
+	display: inline-block;
+	float: right;
+	text-align:  right;
+	padding-right: 30px; 
+	color: #929292;
+
+}
+
+.content_galary__text__stat__link
+{
+	padding-left: 110px;
+	padding-top: 25px;
+	color: #929292;
+}
+
+.green
+{
+	color:#add136;
+	padding-left: 5px;
+}
+
+.content_be_part
+{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../img/content_bg_city.png);
+	padding-bottom: 70px;
+}
+
+.conntent_be_part__title h1
+{
+	padding-top: 85px;
+	padding-bottom: 35px; 
+	color:#9ec02d;
+}
+
+.conntent_be_part__comment__boreder
+{
+	margin-top: 30px;
+	margin-left: 0px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 15px;
+	padding-top: 30px;
+
+}
+.conntent_be_part__comment__boreder h3
+{
+	color: #9ec02d;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+
+.conntent_be_part__comment__boreder p
+{
+	padding-bottom: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-size: 15px;
+}
+
+.mini_angle
+{
+	width:0;
+	height: 0;
+	border-top: 25px solid #fff; 
+	border-right: 25px solid transparent;
+	margin-top: -16px;
+	margin-left: 150px;
+}
+
+.conntent_be_part__comment__boreder__ico
+{
+	margin-top: 20px; 
+	color:#494949;
+}
+
+.conntent_be_part__comment__boreder__ico img
+{
+	margin-left: 120px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+}
+
+.footer p
+{
+	font-size: 14px;
+}
+
+.footer__ico
+{
+	padding-top: 50px;
+}
+
+.footer__ico img
+{
+	padding-left: 50px;
+}
+.offset
+{
+	margin-top:50px;
+}
+
+/*media query*/
+
+@media screen and (max-width: 768px)
+{
+	.header__button a
+	{
+		display: block;
+		text-align: center;
+	}
+	.header__button 
+	{
+		margin-top: 5px;
+	}
+	.content_side_bar__titles
+	{
+		margin-top: 10px; 
+	}
+	.content_side_bar
+	{
+		background-size: cover;
+	}
+	.content_description__ico_arrow
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.content_description__title h2
+	{
+		padding-bottom: 15px;
+	}
+
+	.content_description__text
+	{
+		width: auto;
+	}
+
+	.content_our_advantages_tab
+	{
+		padding-top: 40px;
+	}
+	.items_circle
+	{
+		display: none;
+	}
+	.content_our_advantages_tab_items
+	{
+		padding-bottom: 15px;
+	}
+	.tab_content__img
+	{
+		margin-left: 15px; 
+	}
+	.content_sing_up
+	{
+		margin-top: 15px;
+		background-color: #fff; 
+	}
+	.content_featured_projects__title
+	{
+		padding-top: 15px;
+	}
+	.content_featured_projects__text
+	{
+		padding-bottom: 15px;
+	}
+	.content_featured_projects__button
+	{
+		padding-top: 15px;
+		padding-bottom: 50px;
+	}
+
+	.content_galary__items__center
+	{
+		margin-left:200px;
+		padding-bottom: 15px;
+	}
+	.conntent_be_part__comment
+	{
+		padding-top: 15px;
+	}
+	.conntent_be_part__comment__boreder
+	{
+		background-color: #c8c8c8;
+	}
+	.mini_angle
+	{
+		border-top:25px solid #c8c8c8;
+	}
+	.conntent_be_part__comment__boreder
+	{
+		padding-top: 15px;
+	}
+	.content_be_part
+	{
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	.content_side_bar
+	{
+		background-size: cover;
+	}
+	.items_circle
+	{
+		display: none;
+	}
+	.content_description__text
+	{
+		width: auto;
+	}
+	.content_featured_projects__title
+	{
+		padding-top: 15px;
+	}
+	.content_featured_projects__text
+	{
+		padding-bottom: 15px;
+	}
+	.content_featured_projects__button
+	{
+		padding-top: 15px;
+		padding-bottom: 50px;
+	}
+	.content_galary__items__center
+	{
+		margin-left:200px;
+		padding-bottom: 15px;
+	}
+	.conntent_be_part__comment
+	{
+		padding-top: 15px;
+	}
+	.conntent_be_part__comment__boreder
+	{
+		background-color: #c8c8c8;
+	}
+	.mini_angle
+	{
+		border-top:25px solid #c8c8c8;
+	}
+	.conntent_be_part__comment__boreder
+	{
+		padding-top: 15px;
+	}
+	.content_be_part
+	{
+		padding-bottom: 15px;
+	}
 }
