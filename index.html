@@ -115,42 +115,66 @@
 		</div>	
 	</section>
 
-<section id="content_our_advantages" class="content_our_advantages">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="content_our_advantages_tab d-flex justify-content-center">
-					<div class="content_our_advantages_tab_items">
-						<div class="items_circle">1</div> <h2>Simple</h2>
-					</div>
-					<div class="content_our_advantages_tab_items">
-						<div class="items_circle">2</div> <h2>Transparent</h2>			
-					</div>
-					<div class="content_our_advantages_tab_items">
-						<div class="items_circle">3</div> <h2>Collaborative</h2>
-					</div>
+<section calss="tab_controll">
+<div class="container">
+	<div class="row tab">
+		<div class="col-lg-4">			
+			<button class="tablinks active" onclick="open_tab(event, 'Simple')">
+			  	<div class="tab__nomber">
+					1
 				</div>
-				<div class="tab_content d-flex justify-content-center" id="simple">
-					<div class="tab_content__img">
-						<img src="img/content_ico_glasses.png">
-					</div>
-					<div class="tab_content__text">
-						<h3>Browse projects, like booking a hotel online !</h3>
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							</p>
-					</div>
-									
+				Simple
+			</button>
+		</div>
+		
+		<div class="col-lg-4">
+			<button class="tablinks" onclick="open_tab(event, 'Transparent')">
+				<div class="tab__nomber">
+					2
 				</div>
-				<div class="tab_content" id="transparent">
-					
+				Transparent
+			</button>
+		</div>
+
+		<div class="col-lg-4">	  
+			  <button class="tablinks" onclick="open_tab(event, 'Collaborative')">
+				<div class="tab__nomber">
+					3
 				</div>
-				<div class="tab_content" id="collaborative">
-					
-				</div>				
+			  	Collaborative
+			  </button>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-lg-12">
+			<div id="Simple" class="tabcontent">
+				<img src="img/content_ico_glasses.png">
+			  <h3>
+			  	Browse projects, like booking a hotel online !1
+			  </h3>
+			  <p>
+			  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			  </p>
 			</div>
 		</div>
-	</div>	
+		<div class="col-lg-12">
+			<div id="Transparent" class="tabcontent">
+				<img src="img/content_ico_glasses.png">
+			  <h3>Browse projects, like booking a hotel online !2</h3>
+			  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+			</div>
+		</div>
+		<div class="col-lg-12">
+			<div id="Collaborative" class="tabcontent">
+				<img src="img/content_ico_glasses.png">
+			  <h3>Browse projects, like booking a hotel online !3</h3>
+			  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+	</div>
+	
+</div>
 </section>
 
 	<section id="content_sing_up" class="content_sing_up">
@@ -394,6 +418,6 @@
 		<p>Copyright © 2001 - 2014  Cssauthor.com</p>
 	</div> 
 	</footer>
-
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

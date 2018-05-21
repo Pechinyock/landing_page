@@ -6,9 +6,9 @@ body
 }
 ul, li
 {
- display: block;
- margin: 0px;
- padding: 0px;
+	 display: block;
+	 margin: 0px;
+	 padding: 0px;
 }
 a
 {
@@ -197,70 +197,68 @@ progress
 }
 
 /* third screen */
-
-.content_our_advantages
+.tab
 {
-
+	margin-top: 170px; 
 }
 
-.content_our_advantages_tab
+.tab__nomber
 {
-	padding-top: 180px;
+    float: left;
+    background-color: #5f5f5f;
+    color: #fff;
+    padding: 3px 13px;
+    border-radius: 30px;  
 }
 
-.content_our_advantages_tab_items
+.tab button 
 {
-	padding-bottom: 45px;
-	border-bottom: 1px solid #e6e6e6;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
-.content_our_advantages_tab_items h2
+.tab button:hover 
 {
-	color: #656565;
-	margin-right: 100px; 
-	display:inline-block;
+    background-color: #f1f1f1;
 }
 
-.content_our_advantages_tab
+.tab__nomber__active
 {
-
+    background-color: #add136;
 }
 
-.items_circle
+.tab button.active 
 {
-	float: left;
-	background-color: #5f5f5f;
-	color: #fff;
-	padding: 6px 13px 6px 13px;
-	border-radius: 30px;
-	margin-right: 50px;
+    border-bottom: 1px solid #add136; 
+    color: #add136;
 }
 
-.tab_content
+.tabcontent 
 {
-
+    display: none;
+    padding: 30px 12px;
 }
 
-.tab_content__img
+.tabcontent h3
 {
-	margin-left: 140px;
-	margin-top: 80px;
-	padding-right: 90px;
+    color: #add136;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
-
-.tab_content__text h3
+.tabcontent img
 {
-	color: #add136;
-	margin-top: 50px;
-	text-align: left;
-	padding-bottom: 40px;
+    float: left;
+    padding: 50px 80px 120px 80px;
 }
-
-.tab_content__text p
-{
-	text-align: left;
-}
-
 /* fourth screen */
 .content_sing_up
 {
@@ -629,6 +627,11 @@ progress
 }
 
 /*media query*/
+
+@media screen and (max-width: 320px)
+{
+
+}
 
 @media screen and (max-width: 768px)
 {
