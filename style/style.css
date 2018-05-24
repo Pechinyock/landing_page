@@ -9,6 +9,7 @@ ul, li
 	 display: block;
 	 margin: 0px;
 	 padding: 0px;
+	 float: right;
 }
 a
 {
@@ -776,6 +777,18 @@ progress
 
 @media screen and (max-width: 768px)
 {
+	.menu__item
+	{
+		padding:0;
+		margin-left: 10px;
+		text-align: center;
+		padding-bottom: 5px;
+	}
+	.header__menu
+	{
+		float: none;
+	}
+
 	.header__button a
 	{
 		display: block;
@@ -893,18 +906,77 @@ progress
 		margin-top: 0px;
 	}
 
+	.content_sign_up__right__img
+	{
+		padding-left: 0px;
+		padding-right: 92px;
+	}
+
+	.content_sign_up__left__img
+	{
+		padding-left: 0;
+	}
+
 }
 
 
 @media screen and (max-width: 425px)
 {
+	.menu__item
+	{
+		padding:0;
+		float: none;
+		margin-left: 10px;
+		text-align: center;
+		padding-bottom: 5px;
+	}
+	.header__menu
+	{
+		float: none;
+	}
+	.logo
+	{
+		padding-bottom: 20px;
+	}
+
+	.content_sign_up__right__text p
+	{
+		padding-top: 30px;
+		text-align: center;
+	}
+	.content_sign_up__left__text p
+	{
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.content_sign_up__right__text h3
+	{
+		text-align: center;
+	}
+
+	.content_sign_up__left__text h3
+	{
+		text-align: center;
+	}
+
+	.content_sign_up__right__text 
+	{
+		text-align: center;
+	}
+
+	.content_sign_up__left__text 
+	{
+		text-align: center;
+	}
+
 	.slider
 	{
 		display: none;
 	}
 	.slider_bar
 	{
-		top:100px;
+		top:120px;
 	}
 
 	.arrows
@@ -923,7 +995,7 @@ progress
 	}
 	.content_description
 	{
-		margin-top: 480px;
+		margin-top: 350px;
 		margin-right: 0;
 	}
 
@@ -962,15 +1034,10 @@ progress
 
 	.content_sign_up__right__text
 	{
-		padding-left: 50px;
+		
 	}
 	.content_featured_projects__button
 	{
 		margin-top: 20px;
-	}
-	.menu__item
-	{
-		margin:0;
-		padding-right:10px;
 	}
 }
