@@ -95,6 +95,9 @@ $(document).ready(function() {
         prev_image.addClass('curry');
 
     });
+    $('.burger__ico').click(function(){
+        $('.burger__item').toggle(100);
+    });
 });
 
 
